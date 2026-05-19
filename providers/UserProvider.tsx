@@ -37,7 +37,7 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
 
   if (!user) {
     return (
-      <div className="flex border h-screen w-full items-center justify-center px-4" style={{ background: '#080808' }}>
+      <div className="flex border h-screen w-lg items-center justify-center px-4" style={{ background: '#080808' }}>
         <div
           style={{
             background: 'linear-gradient(175deg, #141414 0%, #0d0d0d 100%)',
